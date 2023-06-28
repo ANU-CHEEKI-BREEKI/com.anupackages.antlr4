@@ -9,7 +9,19 @@ Also it is used by some other ANU packages.
 ## How to install
 
 - from git url: `https://github.com/ANU-CHEEKI-BREEKI/com.anupackages.antlr4.git`
-- from npm: ` `
+- from npm:  add following to your Scoped Registries
+```
+  "scopedRegistries": [
+    {
+      "name": "ANU",
+      "url": "https://registry.npmjs.org/",
+      "scopes": [
+        "com.anupackages"
+      ]
+    }
+  ]
+```
+<img width="809" alt="249550660-a967a238-a5d5-41d8-8bcc-23e8c575dfcc" src="https://github.com/ANU-CHEEKI-BREEKI/com.anupackages.antlr4/assets/15821105/c8e19b24-adaf-4d7e-a90e-958085b76961">
 
 ----
 
